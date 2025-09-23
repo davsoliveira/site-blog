@@ -6,7 +6,7 @@ const ptSansCaption = PT_Sans_Caption({
   weight: '700',
 });
 
-export const SupportSection = () => {
+export function SupportSection() {
   return (
     <section className="pb-8 md:py-10 bg-gray-700">
       <div className="container flex flex-col items-center gap-12">
