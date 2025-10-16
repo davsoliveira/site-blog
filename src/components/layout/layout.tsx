@@ -1,6 +1,7 @@
 import { Inter, PT_Sans_Caption } from "next/font/google";
 import { Footer } from "./footer/footer";
 import { Header } from "./header";
+import { CallToAction } from "@/templates/sections";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -22,6 +23,7 @@ export function Layout({ children }: LayoutProps) {
     <div className={`${inter.className} ${ptSansCaption.className} relative flex min-h-screen flex-col bg-gray-700 font-inter`}>
       <Header />
       <main className="flex-1 flex flex-col mt-10 mb-12">{children}</main>
+      <CallToAction />
       <Footer />
     </div>
   )
