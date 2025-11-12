@@ -2,6 +2,8 @@ Site Blog
 
 This was the project developed in level 01 of Rocketseat's Next.js course.
 
+## [View the project here](https://site-blog-liard-chi.vercel.app/) ##
+
 ## Table of contents
 
 - [Overview](#overview)
