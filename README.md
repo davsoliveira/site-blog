@@ -1,40 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Site Blog
 
-## Getting Started
+This was the project developed in level 01 of Rocketseat's Next.js course.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [My Process](#my-proccess)
+  - [Screenshots](#screenshots)
+- [How to Run the Project](#how-to-run-the-project)
+- [Developed with](#developed-with)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This project simulates a landing page integrated with a blog page, where users can view posts, search for content, and share articles on social media.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### My Process
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+In this project, we first used the Pages Router to understand how its routing works, and then migrated to the App Router. During the blog development, we implemented a CMS to explore the three core pillars of Next.js: routing, data fetching, and rendering (SSR, SSG, and ISR). We also made code optimizations to improve performance and SEO.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Screenshots
 
-## Learn More
+#### Layout
 
-To learn more about Next.js, take a look at the following resources:
+![](screenshots/site-set-layout.gif)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+#### Reading an article
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![](screenshots/site-set-search.gif)
 
-## Deploy on Vercel
+## How to Run the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run the project locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+1. Clone the repository:
+
+   ```bash
+   git clone "https://github.com/davsoliveira/site-blog"
+
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd site-blog
+
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Developed with
+
+- Typescript
+- Next.js
+- Tailwind CSS
+- shadcn/ui
+- Contentlayer
+- react-markdown
+- React Hooks
+
+## Author
+
+- GitHub - [davsoliveira](https://github.com/davsoliveira)
+- My portfolio - [Davi Oliveira](https://davsoliveira.github.io/portfolio/)
